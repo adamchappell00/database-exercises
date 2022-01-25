@@ -1,15 +1,5 @@
 USE codeup_test_db;
 
-/* albums (
-        id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-        artist VARCHAR(50) NOT NULL,
-        name VARCHAR(50) NOT NULL,
-        release_date INT NOT NULL DEFAULT '0000',
-        sales FLOAT UNSIGNED,
-        genre VARCHAR(50),
-        PRIMARY KEY (id)
-); */
-
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson','Thriller',1982,49.2, 'Pop, post-disco, funk, rock'),
        ('AC/DC','Back in Black',1980,29.5,'Hard Rock'),
@@ -18,7 +8,7 @@ VALUES ('Michael Jackson','Thriller',1982,49.2, 'Pop, post-disco, funk, rock'),
        ('Eagles','Their Greatest Hits (1971-1975)',1976,41.2,'Country Rock, Soft Rock, Folk Rock'),
        ('Pink Floyd','The Dark Side of the Moon',1973,24.4,'Progressive Rock'),
        ('Eagles','Hotel California',1976,31.5,'Soft Rock'),
-       ('Bee Gees','Saturday Night fever',1977,21.6,'Disco'),
+       ('Bee Gees','Saturday Night Fever',1977,21.6,'Disco'),
        ('Fleetwood Mac','Rumors',1977,27.9,'Soft Rock'),
        ('Shania Twain','Come On Over',1997,29.6,'Country, Pop'),
        ('Various','Grease: The Original Soundtrack from the Motion Picture',1978,14.4,'Rock and Roll'),
